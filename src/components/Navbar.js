@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import Logo from '../imagens/Logo.png'
 
+
 function Navbar() {
     return (
         <header>
@@ -24,7 +25,7 @@ function Navbar() {
 
 
                             <li className="nav-item px-1">
-                            <Link to="/" className="nav-link px-1">
+                            <Link to="/login" className="nav-link px-1">
                             <i className="fa fa-user-circle-o mx-1" aria-hidden="true" style={{fontSize: "1.3rem",}}></i>Login</Link>
                             </li>
 
