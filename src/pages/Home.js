@@ -4,6 +4,7 @@ import Discussão from '../imagens/Discussão.jpg'
 
 function Home() {
     return(
+		
     <main>
 		<div className="row align-content-center m-0 mt-5">
 			<div className="col-lg-6 col-sm-12 bg-dark bg-opacity-50 h-100"

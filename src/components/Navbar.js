@@ -30,7 +30,7 @@ function Navbar() {
                             </li>
 
                             <li className="nav-item px-1">
-                            <Link to="/" className="nav-link px-1">
+                            <Link to="/cadastro" className="nav-link px-1">
                             <i className="fa fa-user-plus mx-1" aria-hidden="true" style={{fontSize: "1.3rem",}}></i>Cadastro</Link>
                             </li>
 
@@ -40,12 +40,12 @@ function Navbar() {
                             </li>
 
                             <li className="nav-item px-1">
-                            <Link to="/" className="nav-link px-1">
+                            <Link to="/contato" className="nav-link px-1">
                             <i className="fa fa-phone-square mx-1" aria-hidden="true" style={{fontSize: "1.3rem",}}></i>Contato</Link>
                             </li>
 
                             <li className="nav-item px-1">
-                            <Link to="/" className="nav-link px-1">
+                            <Link to="/sobre" className="nav-link px-1">
                             <i className="fa fa-book mx-1" aria-hidden="true" style={{fontSize: "1.3rem",}}></i>Sobre</Link>
                             </li>
 
